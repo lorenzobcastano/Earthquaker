@@ -7,8 +7,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     resources :features, only: [:index] do
-      resources :comments, only: [:create]
+      resources :comments, only: [:create, :index] # Agrega :index para GET
     end
   end
-
 end
+
