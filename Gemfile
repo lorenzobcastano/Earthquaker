@@ -68,3 +68,4 @@ group :test do
   gem "selenium-webdriver"
 end
 gem 'httparty'
+gem 'will_paginate', '~> 3.3'
